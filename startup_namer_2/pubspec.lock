@@ -37,7 +37,7 @@ packages:
     source: hosted
     version: "0.1.2"
   english_words:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: english_words
       url: "https://pub.dartlang.org"

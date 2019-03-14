@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="usheninte.startup_namer">
+    package="usheninte.startup_namer_2">
 
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -8,7 +8,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="startup_namer"
+        android:label="startup_namer_2"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

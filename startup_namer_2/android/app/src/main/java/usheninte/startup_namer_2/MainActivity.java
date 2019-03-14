@@ -1,4 +1,4 @@
-package usheninte.startup_namer;
+package usheninte.startup_namer_2;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
