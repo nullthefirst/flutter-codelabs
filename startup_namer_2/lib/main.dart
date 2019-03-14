@@ -25,7 +25,6 @@ class RandomWordsState extends State<RandomWords> {
   }
   Widget _buildSuggestions() {
     final List<WordPair> _suggestions = <WordPair>[];
-    final Set<WordPair> _saved = Set<WordPair>();
     return new ListView.builder(
         padding: const EdgeInsets.all(16.0),
         // The itemBuilder callback is called once per suggested
@@ -59,6 +58,7 @@ class RandomWordsState extends State<RandomWords> {
     );
   }
   Widget _buildRow(WordPair pair) {
+    final Set<WordPair> _saved = Set<WordPair>();
     final bool alreadySaved = _saved.contains(pair);
     final TextStyle _biggerFont = const TextStyle(fontSize: 18.0);
     return new ListTile(
